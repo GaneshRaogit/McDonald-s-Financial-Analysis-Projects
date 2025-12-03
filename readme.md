@@ -45,22 +45,21 @@ Git / GitHub for version control, documentation, and reproducibility.​
 
 ## Project structure
 ````
-/
-├─ data/
+├─ Data/
 │  ├─ McDonalds_Financial_Statements.csv         # Raw 2002–2022 data
 │  └─ McDonalds_Dashboard_Ready.csv              # Engineered metrics for BI
-├─ notebooks/
+├─ Notebooks/
 │  └─ mcdonalds_financial_analysis.ipynb         # Main analysis & modeling
-├─ visuals/
+├─ Visuals/
 │  ├─ 01_revenue_earnings.png
 │  ├─ 02_operating_margin.png
 │  ├─ 03_valuation_multiples.png
 │  ├─ 04_leverage_trend.png
 │  ├─ 05_dividend_trend.png
 │  └─ 06_roa_roe.png
-├─ bi/
+├─ Power Bi/
 │  └─ McDonalds_Financials_Dashboard.pbix        # Power BI dashboard (optional)
-├─ docs/
+├─ Docs/
 │  ├─ kpi_definitions.md
 │  └─ executive_summary.pdf
 └─ README.md
@@ -96,10 +95,10 @@ All metrics are exported to McDonalds_Dashboard_Ready.csv for direct BI consumpt
 - **Valuation & Shareholder Returns**: P/E, P/S, P/B over time, dividend per share and yield trends, and DCF/price comparison tiles.
 
 ## Key metrics
-- **Revenue CAGR (2002–2022)**: ≈ 2.1%; Earnings CAGR: ≈ 8.1%.​
+- **Revenue CAGR (2002–2022)**: 2.1%; Earnings CAGR: 8.1%.​
 - **Operating Margin**: 10.8% → 33.8% over the sample, reflecting franchising and efficiency gains.​​
-- **Debt‑to‑Assets**: ~41.6% → ~95.2%, with Net Debt rising from ≈ $9.6B to ≈ $45.5B, indicating a leveraged, shareholder‑return‑focused strategy.​​
-- **2022 P/E**: 31.3× vs ~21.7× long‑run average; DCF fair value ≈ $121.7B vs $193.0B market cap under conservative assumptions.​​
+- **Debt‑to‑Assets**: 41.6% → 95.2%, with Net Debt rising from $9.6B to $45.5B, indicating a leveraged, shareholder‑return‑focused strategy.​​
+- **2022 P/E**: 31.3× vs 21.7× long‑run average; DCF fair value ≈ $121.7B vs $193.0B market cap under conservative assumptions.​​
 
 ## How to run project
 
@@ -141,7 +140,7 @@ Dataset is company‑level and annual; no segment or geographic breakdowns, so l
 **Ganesh_Rao**  
 *Data Analyst & Business Intelligence*
 
-🎯 **Specialized in**: healthcare Analytics, Retail Analytics, Customer Behavior Analysis, Statistical Modeling  
+🎯 **Specialized in**: healthcare Analytics, Customer Analytics, Financial Analysis, Statistical Modeling  
 📊 **Experience**: Advanced EDA, Python Programming, Business Intelligence  
 🎓 **Focus Areas**: Data Analytics, SQL, Machine Learning, Statistical Analysis, Power Bi
 
